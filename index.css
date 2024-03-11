@@ -273,9 +273,15 @@
 }
 
 @media(max-width:768px){
+    .menu-items{
+        font-size: 16px;
+    }
     .menu-item{
         display: block;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
+    }
+    .logo img{
+        width: 80px;
     }
     .main-menu{
         height: fit-content;
